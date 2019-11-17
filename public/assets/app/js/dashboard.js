@@ -514,16 +514,16 @@ var Dashboard = function () {
                 element: "m_chart_revenue_change",
                 data: [{
                     label: "Glass",
-                    value: 10
+                    value: 5421
                 }, {
                     label: "Plastic",
-                    value: 7
+                    value: 8842
                 }, {
                     label: "Organic",
-                    value: 20
+                    value: 216
                 }, {
                     label: "Paper",
-                    value: 25
+                    value: 2000
                 }],
                 colors: [mUtil.getColor("accent"), mUtil.getColor("danger"), mUtil.getColor("brand"), mUtil.getColor("success")]
             })
@@ -1168,106 +1168,39 @@ var Dashboard = function () {
                     editable: !0,
                     eventLimit: !0,
                     navLinks: !0,
-                    defaultDate: moment("2017-09-15"),
+                    defaultDate: moment("2019-09-15"),
                     events: [{
-                        title: "Meeting",
-                        start: moment("2017-08-28"),
+                        title: "Cleaning campaign",
+                        start: moment("2019-08-28"),
                         description: "Lorem ipsum dolor sit incid idunt ut",
                         className: "m-fc-event--light m-fc-event--solid-warning"
                     }, {
-                        title: "Conference",
-                        description: "Lorem ipsum dolor incid idunt ut labore",
-                        start: moment("2017-08-29T13:30:00"),
-                        end: moment("2017-08-29T17:30:00"),
-                        className: "m-fc-event--accent"
-                    }, {
-                        title: "Dinner",
-                        start: moment("2017-08-30"),
+                        title: "Recycling",
+                        start: moment("2019-08-30"),
                         description: "Lorem ipsum dolor sit tempor incid",
                         className: "m-fc-event--light  m-fc-event--solid-danger"
                     }, {
-                        title: "All Day Event",
-                        start: moment("2017-09-01"),
+                        title: "Green hike",
+                        start: moment("2019-09-01"),
                         description: "Lorem ipsum dolor sit incid idunt ut",
                         className: "m-fc-event--danger m-fc-event--solid-focus"
                     }, {
-                        title: "Reporting",
+                        title: "Raising awareness",
                         description: "Lorem ipsum dolor incid idunt ut labore",
-                        start: moment("2017-09-03T13:30:00"),
-                        end: moment("2017-09-04T17:30:00"),
+                        start: moment("2019-09-03T13:30:00"),
+                        end: moment("2019-09-04T17:30:00"),
                         className: "m-fc-event--accent"
                     }, {
-                        title: "Company Trip",
-                        start: moment("2017-09-05"),
-                        end: moment("2017-09-07"),
-                        description: "Lorem ipsum dolor sit tempor incid",
-                        className: "m-fc-event--primary"
-                    }, {
-                        title: "ICT Expo 2017 - Product Release",
-                        start: moment("2017-09-09"),
-                        description: "Lorem ipsum dolor sit tempor inci",
-                        className: "m-fc-event--light m-fc-event--solid-primary"
-                    }, {
-                        title: "Dinner",
-                        start: moment("2017-09-12"),
-                        description: "Lorem ipsum dolor sit amet, conse ctetur"
-                    }, {
-                        id: 999,
-                        title: "Repeating Event",
-                        start: moment("2017-09-15T16:00:00"),
-                        description: "Lorem ipsum dolor sit ncididunt ut labore",
-                        className: "m-fc-event--danger"
-                    }, {
-                        id: 1e3,
-                        title: "Repeating Event",
-                        description: "Lorem ipsum dolor sit amet, labore",
-                        start: moment("2017-09-18T19:00:00")
-                    }, {
-                        title: "Conference",
-                        start: moment("2017-09-20T13:00:00"),
-                        end: moment("2017-09-21T19:00:00"),
+                        title: "Raising awareness",
+                        start: moment("2019-09-20T13:00:00"),
+                        end: moment("2019-09-21T19:00:00"),
                         description: "Lorem ipsum dolor eius mod tempor labore",
                         className: "m-fc-event--accent"
                     }, {
-                        title: "Meeting",
-                        start: moment("2017-09-11"),
-                        description: "Lorem ipsum dolor eiu idunt ut labore"
-                    }, {
-                        title: "Lunch",
-                        start: moment("2017-09-18"),
+                        title: "Green hike",
+                        start: moment("2019-09-18"),
                         className: "m-fc-event--info m-fc-event--solid-accent",
                         description: "Lorem ipsum dolor sit amet, ut labore"
-                    }, {
-                        title: "Meeting",
-                        start: moment("2017-09-24"),
-                        className: "m-fc-event--warning",
-                        description: "Lorem ipsum conse ctetur adipi scing"
-                    }, {
-                        title: "Happy Hour",
-                        start: moment("2017-09-24"),
-                        className: "m-fc-event--light m-fc-event--solid-focus",
-                        description: "Lorem ipsum dolor sit amet, conse ctetur"
-                    }, {
-                        title: "Dinner",
-                        start: moment("2017-09-24"),
-                        className: "m-fc-event--solid-focus m-fc-event--light",
-                        description: "Lorem ipsum dolor sit ctetur adipi scing"
-                    }, {
-                        title: "Birthday Party",
-                        start: moment("2017-09-24"),
-                        className: "m-fc-event--primary",
-                        description: "Lorem ipsum dolor sit amet, scing"
-                    }, {
-                        title: "Company Event",
-                        start: moment("2017-09-24"),
-                        className: "m-fc-event--danger",
-                        description: "Lorem ipsum dolor sit amet, scing"
-                    }, {
-                        title: "Click for Google",
-                        url: "http://google.com/",
-                        start: moment("2017-09-26"),
-                        className: "m-fc-event--solid-info m-fc-event--light",
-                        description: "Lorem ipsum dolor sit amet, labore"
                     }],
                     eventRender: function (e, t) {
                         t.hasClass("fc-day-grid-event") ? (t.data("content", e.description), t.data("placement", "top"), mApp.initPopover(t)) : t.hasClass("fc-time-grid-event") ? t.find(".fc-title").append('<div class="fc-description">' + e.description + "</div>") : 0 !== t.find(".fc-list-item-title").lenght && t.find(".fc-list-item-title").append('<div class="fc-description">' + e.description + "</div>")

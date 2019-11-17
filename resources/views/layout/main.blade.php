@@ -23,6 +23,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--begin::Web font -->
+	<script src="assets/js/main.js"></script>
 	<script src="https://cdn.bootcss.com/webfont/1.6.16/webfontloader.js"></script>
 	<script>
 		WebFont.load({
@@ -334,6 +335,14 @@ License: You must have a valid license purchased only from themeforest(the above
 										</span>
 									</a>
 								</li>
+								<li class="m-menu__item @if(request()->path()=='trash')  m-menu__item--active @endif" aria-haspopup="true">
+									<a href="trash" class="m-menu__link ">
+										<span class="m-menu__item-here"></span>
+										<span class="m-menu__link-text">
+											Trash Disposal 
+										</span>
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -414,7 +423,6 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!--end::Page Vendors -->
 	<!--begin::Page Snippets -->
 	<script src="assets/app/js/dashboard.js" type="text/javascript"></script>
-	<script src="assets/js/main.js"></script>
 	<!--end::Page Snippets -->
 </body>
 <!-- end::Body -->

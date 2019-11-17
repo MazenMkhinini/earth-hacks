@@ -122,20 +122,20 @@
 						</div>
 						<div class="m-portlet__body">
 							<div class="m-widget25">
-								<span class="m-widget25__price m--font-brand">
-									5,000Kg
+								<span id="total-trash" class="m-widget25__price m--font-brand">
+									15,475Kg
 								</span>
 								<span class="m-widget25__desc">
 									Total trash
 								</span>
-								<div class="m-widget25--progress">
+								<div id="trash-categories" class="m-widget25--progress">
 									<div class="m-widget25__progress">
 										<span class="m-widget25__progress-number">
-											63%
+											21%
 										</span>
 										<div class="m--space-10"></div>
 										<div class="progress m-progress--sm">
-											<div class="progress-bar m--bg-accent" role="progressbar" style="width: 63%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+											<div class="progress-bar m--bg-accent" role="progressbar" style="width: 21%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 										</div>
 										<span class="m-widget25__progress-sub">
 										Glass
@@ -143,11 +143,11 @@
 									</div>
 									<div class="m-widget25__progress">
 										<span class="m-widget25__progress-number">
-											39%
+											41%
 										</span>
 										<div class="m--space-10"></div>
 										<div class="progress m-progress--sm">
-											<div class="progress-bar m--bg-danger" role="progressbar" style="width: 39%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+											<div class="progress-bar m--bg-danger" role="progressbar" style="width: 41%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 										</div>
 										<span class="m-widget25__progress-sub">
 										Plastic
@@ -155,11 +155,11 @@
 									</div>
 									<div class="m-widget25__progress">
 										<span class="m-widget25__progress-number">
-											54%
+											11%
 										</span>
 										<div class="m--space-10"></div>
 										<div class="progress m-progress--sm">
-											<div class="progress-bar m--bg-brand" role="progressbar" style="width: 54%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+											<div class="progress-bar m--bg-brand" role="progressbar" style="width: 11%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 										</div>
 										<span class="m-widget25__progress-sub">
 										Organic
@@ -167,11 +167,11 @@
 									</div>
 									<div class="m-widget25__progress">
 										<span class="m-widget25__progress-number">
-											54%
+											27%
 										</span>
 										<div class="m--space-10"></div>
 										<div class="progress m-progress--sm">
-											<div class="progress-bar m--bg-success" role="progressbar" style="width: 54%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+											<div class="progress-bar m--bg-success" role="progressbar" style="width: 27%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
 										</div>
 										<span class="m-widget25__progress-sub">
 										Paper
@@ -270,16 +270,16 @@
 															Application
 														</td>
 														<td class="m-widget11__sales">
-															Sales
+															
 														</td>
 														<td class="m-widget11__change">
-															Change
+															
 														</td>
 														<td class="m-widget11__price">
-															Avg Price
+															Price
 														</td>
 														<td class="m-widget11__total m--align-right">
-															Total
+															
 														</td>
 													</tr>
 												</thead>
@@ -295,26 +295,21 @@
 														</td>
 														<td>
 															<span class="m-widget11__title">
-																Vertex 2.0
+																Wool Footwear 
 															</span>
 															<span class="m-widget11__sub">
-																Vertex To By Again
+															Allbirds created an innovative wool fabric made specifically for footwear
 															</span>
 														</td>
 														<td>
-															19,200
 														</td>
 														<td>
-															<div class="m-widget11__chart" style="height:50px; width: 100px">
-																<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																<canvas id="m_chart_sales_by_apps_1_1" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
-															</div>
+															
 														</td>
 														<td>
-															$63
+															120 points
 														</td>
 														<td class="m--align-right m--font-brand">
-															$14,740
 														</td>
 													</tr>
 													<tr>
@@ -326,26 +321,21 @@
 														</td>
 														<td>
 															<span class="m-widget11__title">
-																Metronic
+															Reusable Coffee Cups
 															</span>
 															<span class="m-widget11__sub">
-																Powerful Admin Theme
+															In a similar style to coffee cups you get from Starbucks and other shops, Onya’s reusable coffee cups are made out of 100% food safe silicone.
 															</span>
 														</td>
 														<td>
-															24,310
 														</td>
 														<td>
-															<div class="m-widget11__chart" style="height:50px; width: 100px">
-																<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																<canvas id="m_chart_sales_by_apps_1_2" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
-															</div>
+															
 														</td>
 														<td>
-															$39
+															58 points
 														</td>
 														<td class="m--align-right m--font-brand">
-															$16,010
 														</td>
 													</tr>
 													<tr>
@@ -357,26 +347,21 @@
 														</td>
 														<td>
 															<span class="m-widget11__title">
-																Apex
+															Stainless Steel Drink Bottles
 															</span>
 															<span class="m-widget11__sub">
-																The Best Selling App
+															Our Onya stainless steel drink bottle is 100% BPA-free
 															</span>
 														</td>
 														<td>
-															9,076
 														</td>
 														<td>
-															<div class="m-widget11__chart" style="height:50px; width: 100px">
-																<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																<canvas id="m_chart_sales_by_apps_1_3" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
-															</div>
+															
 														</td>
 														<td>
-															$105
+															200 points
 														</td>
 														<td class="m--align-right m--font-brand">
-															$37,200
 														</td>
 													</tr>
 													<tr>
@@ -388,26 +373,21 @@
 														</td>
 														<td>
 															<span class="m-widget11__title">
-																Cascades
+															Drink Bottle Lids
 															</span>
 															<span class="m-widget11__sub">
-																Design Tool
+															Onya’s stainless steel drink bottles come with our Flip and Flow lid/straw
 															</span>
 														</td>
 														<td>
-															11,094
 														</td>
 														<td>
-															<div class="m-widget11__chart" style="height:50px; width: 100px">
-																<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																<canvas id="m_chart_sales_by_apps_1_4" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
-															</div>
+															
 														</td>
 														<td>
-															$16
+															40 points
 														</td>
 														<td class="m--align-right m--font-brand">
-															$8,520
 														</td>
 													</tr>
 												</tbody>
@@ -599,5 +579,9 @@
 				</div>
 			</div>
 			<!--End::Main Portlet-->
+
+			<script>
+				
+			</script>
 
 			@endsection
